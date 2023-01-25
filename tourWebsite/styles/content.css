@@ -1,0 +1,45 @@
+.item {
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+}
+
+.item img {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    object-fit: cover;
+    max-width: 360px;
+    max-height: 240px;
+    margin-bottom: 12px;
+}
+
+.item h3 {
+    padding: 0 4px;
+    font-size: 22px;
+    letter-spacing: 0.4px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.item p {
+    letter-spacing: 0.1px;
+    padding: 0 12px;
+    font-size: 18px;
+    margin-bottom: 14px;
+}
+
+.item button {
+    align-items: center;
+    font-size: 16px;
+    height: 48px;
+    width: 96px;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.item button:hover {
+    background-color: lightgray;
+}

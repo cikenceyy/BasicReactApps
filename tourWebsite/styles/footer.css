@@ -1,0 +1,26 @@
+footer {
+    padding-bottom: 24px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer .map iframe {
+    width: 256px;
+    height: 196px;
+    border-radius: 8px;
+}
+
+footer .services p {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+footer .services ul li {
+    margin-left: 12px;
+    font-size: 18px;
+    font-weight: 300px;
+}
+
+footer .about {
+    max-width: 256px;
+}

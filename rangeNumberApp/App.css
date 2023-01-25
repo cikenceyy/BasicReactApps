@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #282a36;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 18px 20px;
+  border-radius: 6px;
+  background-color: #f2efe9;
+}
+
+.container .randomNumber {
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid gray;
+}
+
+.container .randomNumber p {
+  font-size: 22px;
+}
+
+.container .randomNumber p span {
+  margin-left: 10px;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.container .range {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  font-size: 18px;
+}
+
+.range div:first-child {
+  margin-right: 16px;
+}
+
+.range input {
+  font-size: 16px;
+  padding: 3px 8px;
+  width: 172px;
+  height: 32px;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+.btn {
+  cursor: pointer;
+  font-size: 16px;
+  padding: 3px 8px;
+  width: 100%;
+  height: 32px;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  font-size: 18px;
+  padding: 2px 4px;
+  border: 1px solid gray;
+}

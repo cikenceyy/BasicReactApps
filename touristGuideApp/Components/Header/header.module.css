@@ -1,0 +1,19 @@
+.header {
+    width: 1200px;
+    text-align: center;
+    padding-bottom: 16px;
+    margin-bottom: 48px;
+    border-bottom: 1px solid lightgray;
+}
+
+.header h1 {
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 12px;
+    letter-spacing: 0.1px;
+}
+
+.header p {
+    font-size: 22px;
+    font-weight: 300;
+}

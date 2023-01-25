@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgrey;
+}
+
+.header {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 32px;
+}
+
+.header h1 {
+  margin-bottom: 6px;
+  font-size: 32px;
+  letter-spacing: 1px;
+}
+
+
+.form {
+  margin-bottom: 16px;
+}
+
+.form input {
+  height: 48px;
+  width: 320px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  padding: 0 16px;
+}
+
+.form button {
+  height: 48px;
+  width: 64px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  cursor: pointer;
+}
+
+hr {
+  width: 640px;
+  margin-bottom: 20px;
+  color: #1A374D;
+  background-color: #1A374D;
+  height: 2px;
+  border-color: #1A374D;
+
+}
+
+
+.to-do-area ul li {
+  min-width: 380px;
+  max-width: 580px;
+  word-wrap: break-word;
+  font-size: 18px;
+  padding: 12px 80px 12px 16px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  background-color: white;
+  position: relative;
+}
+
+.to-do-area ul li button {
+  height: 32px;
+  width: 32px;
+  font-size: 22px;
+  border-radius: 50%;
+  background-color: white;
+  color: #1A374D;
+  position: absolute;
+  top: 20%;
+  right: 18px
+}

@@ -1,0 +1,23 @@
+nav {
+    margin-bottom: 32px;
+}
+
+nav button {
+    min-width: 64px;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 8px 12px;
+    border-radius: 8px;
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+nav button:hover {
+    border: 1px solid gray;
+}
+
+.btn-active {
+    border: 1px solid red;
+    padding: 10px 15px;
+
+}
